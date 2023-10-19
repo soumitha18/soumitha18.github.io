@@ -661,6 +661,10 @@ section .container {
   margin: 10px
 }
 
+.activate-course:hover{
+  background: #042e5f;
+}
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
