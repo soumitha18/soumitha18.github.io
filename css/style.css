@@ -1,4 +1,3 @@
-
 /*
   Theme Name: Folio
   Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
@@ -27,7 +26,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -60,7 +64,8 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #0a192f;
   text-decoration: underline;
 }
@@ -112,7 +117,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -241,6 +247,7 @@ nav ul li a {
   width: 100%;
   height: 100%;
 }
+
 /*Particles*/
 
 /*----------------------------------------------------------------------------------*/
@@ -297,17 +304,49 @@ nav ul li a {
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -348,7 +387,7 @@ nav ul li a {
   text-align: left;
 }
 
-.about-img img{
+.about-img img {
   transition: 0.5s all ease-in-out;
 }
 
@@ -369,6 +408,7 @@ nav ul li a {
 .owl-item {
   float: left;
 }
+
 .services-block span {
   margin: 10px 0;
   position: relative;
@@ -393,7 +433,7 @@ nav ul li a {
 }
 
 
-.services-carousel  .owl-stage-outer {
+.services-carousel .owl-stage-outer {
   overflow: hidden;
 }
 
@@ -428,6 +468,50 @@ nav ul li a {
 
 #zoom:hover img {
   transform: scale(0.5);
+}
+
+#project {
+  display: flex;
+  width: 900px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#pro_image img {
+  width: 450px;
+}
+
+#pro_content {
+  text-align: right;
+}
+
+#pro_content_data_right {
+  border: 1px solid #0a192f;
+  background-color: #0a192f;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 110%;
+  margin-right: -10%;
+  position: relative;
+}
+
+#pro_content_data_left {
+  border: 1px solid #0a192f;
+  background-color: #0a192f;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 110%;
+  margin-left: -10%;
+}
+
+#tech>span {
+  margin: 0px 5px;
+  color: #0a192f;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -466,7 +550,8 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
   color: #0a192f;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -495,7 +580,8 @@ nav ul li a {
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
 
-#journal,  #journal-blog {
+#journal,
+#journal-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -575,12 +661,13 @@ nav ul li a {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
 }
 
 
-#contact  #sendmessage {
+#contact #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -590,7 +677,7 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact  #errormessage {
+#contact #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -600,7 +687,9 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+#contact #sendmessage.show,
+#contact #errormessage.show,
+#contact .show {
   display: block;
 }
 

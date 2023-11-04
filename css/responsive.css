@@ -2,33 +2,49 @@
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
 
 /** Width between 992px to 1199px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
 
 /** Width between 768px to 991px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+  #project {
+    flex-direction: column;
+    width: 600px;
+  }
+
+  #pro_image {
+    text-align: center;
+  }
+
+  #pro_image img {
+    width: 400px;
+  }
+
+  #pro_content_data_right {
+    width: 100%;
+  }
+
   /* Navbar */
   nav {
     padding: 10px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -39,43 +55,53 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
   }
+
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
+
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
     display: inline-block;
   }
+
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -90,16 +116,32 @@
  */
 
 @media (max-width: 767px) {
+
+  #project {
+    flex-direction: column;
+    width: 500px;
+  }
+
+  #pro_image {
+    text-align: center;
+  }
+
+  #pro_image img {
+    width: 350px;
+  }
+
   /* Navbar */
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -110,43 +152,53 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
   }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
+
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
     display: inline-block;
   }
+
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -161,16 +213,33 @@
  */
 
 @media (max-width: 600px) {
+
+  #project {
+    flex-direction: column;
+    width: 400px;
+    text-align: left;
+  }
+
+  #pro_image {
+    text-align: center;
+  }
+
+  #pro_image img {
+    width: 350px;
+  }
+
   /* Navbar */
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -181,43 +250,53 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
   }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
+
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
     margin: 10px;
     display: inline-block;
   }
+
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -232,16 +311,19 @@
  */
 
 @media (max-width: 480px) {
+
   /* Navbar */
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -252,42 +334,52 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
   }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
+
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
   }
+
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -302,16 +394,19 @@
  */
 
 @media (max-width: 320px) {
+
   /* Navbar */
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -322,42 +417,52 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
     display: block;
   }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
+
   /* portfolio */
   #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
   }
+
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
   }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -365,6 +470,7 @@
     float: none;
     display: inline-block;
   }
+
   /* Single page */
   .entry-comments-body span {
     display: inline-block;
