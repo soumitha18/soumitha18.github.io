@@ -8,6 +8,10 @@
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #ffffff;
   color: #898989;
@@ -760,4 +764,85 @@ nav ul li a {
 
 .credits {
   font-size: 13px;
+}
+
+
+/* ===== SKILLS SECTION ===== */
+
+#skills {
+  padding: 80px 0;
+}
+
+#skills h1 {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Skill Cards */
+.skill-card {
+  background: #112240;   /* slightly lighter navy */
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.skill-card h4 {
+  color: #64ffda;  /* subtle accent */
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.skill-card p {
+  color: #ccd6f6;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Hover Effect */
+.skill-card:hover {
+  transform: translateY(-8px);
+  border-color: #64ffda;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== RECOGNITION SECTION ===== */
+
+#recognition {
+  padding: 80px 0;
+}
+
+#recognition .section-title {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.recognition-card {
+  background: #112240;
+  padding: 25px 30px;
+  width: 80%;
+  margin: 25px auto;
+  border-radius: 12px;
+  border-left: 4px solid #64ffda;
+  transition: all 0.3s ease;
+}
+
+.recognition-card h4 {
+  color: #64ffda;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.recognition-card p {
+  color: #ccd6f6;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.recognition-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }

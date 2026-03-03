@@ -27,12 +27,14 @@ $(document).ready(function () {
       menu = target;
 
     target = $(target);
-    $('html, body').stop().animate({
-      'scrollTop': target.offset().top - 80
-    }, 500, 'swing', function () {
-      window.location.hash = target.selector;
-      $(document).on("scroll", onScroll);
-    });
+    if (target.length) {
+      $('html, body').stop().animate({
+        'scrollTop': target.offset().top - 80
+      }, 500, 'swing', function () {
+        window.location.hash = menu; // use original hash safely
+        $(document).on("scroll", onScroll);
+      });
+    }
   });
 
 
