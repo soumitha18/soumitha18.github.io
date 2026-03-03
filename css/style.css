@@ -160,16 +160,6 @@ p {
   outline: 0 none;
 }
 
-.paddsection {
-  padding-top: 9px;
-  padding-bottom: 50px;
-}
-
-.paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
-}
-
 .hvr-shutter-in-horizontal::before {
   background: #333;
 }
@@ -770,7 +760,7 @@ nav ul li a {
 /* ===== SKILLS SECTION ===== */
 
 #skills {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 
 #skills h1 {
